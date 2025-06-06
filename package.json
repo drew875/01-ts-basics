@@ -6,7 +6,7 @@
   "homepage": "https://drew875.github.io/01-ts-basics",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -15,5 +15,8 @@
     "gh-pages": "^6.3.0",
     "typescript": "~5.8.3",
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "axios": "^1.9.0"
   }
 }
